@@ -13,3 +13,15 @@ It uses site-prism, Capybara, and CURB for writing UI and API tests respectively
 4. To run the API Tests:
     APP_HOST=http://qaeval.herokuapp.com bundle exec rake api_all
 
+# features
+The /spec/features contains all the UI tests
+
+# api_features
+The /spec/api_features contains all the API tests
+
+# pages
+The /spec/pages contains elements related to each page on the UI. It also uses page object model.
+
+# constants
+Any constants related to config, validation messages etc.
+
