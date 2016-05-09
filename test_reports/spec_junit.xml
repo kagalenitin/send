@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="11" failures="2" errors="0" time="9.906149" timestamp="2016-05-09T15:21:40-07:00">
+  <!-- Randomized with seed 46344 -->
+  <properties/>
+  <testcase classname="spec.api_features.landing_api_spec" name="Landing API create a successful user account" file="./spec/api_features/landing_api_spec.rb" time="3.312435"/>
+  <testcase classname="spec.api_features.landing_api_spec" name="Landing API get user details" file="./spec/api_features/landing_api_spec.rb" time="0.321541"/>
+  <testcase classname="spec.api_features.landing_api_spec" name="Landing API failure returns a 403" file="./spec/api_features/landing_api_spec.rb" time="0.193523"/>
+  <testcase classname="spec.api_features.landing_api_spec" name="Landing API get 404 for unknown user" file="./spec/api_features/landing_api_spec.rb" time="0.166633"/>
+  <testcase classname="spec.api_features.landing_api_spec" name="Landing API validate username when length is 2" file="./spec/api_features/landing_api_spec.rb" time="0.156361"/>
+  <testcase classname="spec.api_features.landing_api_spec" name="Landing API validate username when length is 12" file="./spec/api_features/landing_api_spec.rb" time="0.160595"/>
+  <testcase classname="spec.api_features.landing_api_spec" name="Landing API validate email is incorrect" file="./spec/api_features/landing_api_spec.rb" time="0.155242"/>
+  <testcase classname="spec.api_features.landing_api_spec" name="Landing API validate email already exists" file="./spec/api_features/landing_api_spec.rb" time="0.328065"/>
+  <testcase classname="spec.api_features.landing_api_spec" name="Landing API validate password is invalid length" file="./spec/api_features/landing_api_spec.rb" time="0.317139"/>
+  <testcase classname="spec.api_features.landing_api_spec" name="Landing API validate password is all alphabets" file="./spec/api_features/landing_api_spec.rb" time="2.460945">
+    <failure message="&#10;expected: &quot;400 Bad Request&quot;&#10;     got: &quot;201 Created&quot;&#10;&#10;(compared using ==)&#10;" type="RSpec::Expectations::ExpectationNotMetError">
+      <![CDATA[
+expected: "400 Bad Request"
+     got: "201 Created"
+
+(compared using ==)
+
+./spec/api_features/landing_api_spec.rb:146:in `block (2 levels) in <top (required)>']]>
+    </failure>
+  </testcase>
+  <testcase classname="spec.api_features.landing_api_spec" name="Landing API validate password is all numeric" file="./spec/api_features/landing_api_spec.rb" time="2.330670">
+    <failure message="&#10;expected: &quot;400 Bad Request&quot;&#10;     got: &quot;201 Created&quot;&#10;&#10;(compared using ==)&#10;" type="RSpec::Expectations::ExpectationNotMetError">
+      <![CDATA[
+expected: "400 Bad Request"
+     got: "201 Created"
+
+(compared using ==)
+
+./spec/api_features/landing_api_spec.rb:158:in `block (2 levels) in <top (required)>']]>
+    </failure>
+  </testcase>
+</testsuite>

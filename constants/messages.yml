@@ -1,0 +1,9 @@
+# Validation Messages
+  success_message: "Success! UID: "
+  username_error: "Username must be greater that 3 characters and less 11"
+  email_error: "Email Address is Invalid."
+  email_exists_error: "User with that email already exists"
+  password_error: "Password field must be between 8 and 20 characters."
+  password_alpha_error: "Password Must contain some numbers."
+  password_numeric_error: "Password Must contain some letters."
+  confirm_password_error: "Passwords don't match!"
